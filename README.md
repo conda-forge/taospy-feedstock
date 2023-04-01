@@ -1,11 +1,11 @@
-About taospy
-============
+About taospy-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/taospy-feedstock/blob/main/LICENSE.txt)
 
 Home: http://tdengine.com
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/taospy-feedstock/blob/main/LICENSE.txt)
 
 Summary: TDengine connector for python
 
