@@ -1,5 +1,5 @@
 {% set name = "taospy" %}
-{% set version = "2.7.7" %}
+{% set version = "2.7.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cacaf8b54e7191a591dfefbdc8a6eef19b1c291c775c6f7957d0ce2d3fec3801
+  sha256: bb4cd1c0560c0f39760a9a50e8b2984f985cc954369a2b2af6848c45fd510d76
 
 build:
   number: 0
@@ -19,10 +19,12 @@ requirements:
     - pip
     - setuptools
     - poetry-core
+    - requests
   run:
     - python
     - iso8601
     - pytz
+    - requests
 
 test:
   imports:
