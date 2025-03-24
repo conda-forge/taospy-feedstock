@@ -1,5 +1,5 @@
 {% set name = "taospy" %}
-{% set version = "2.7.18" %}
+{% set version = "2.7.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bae3ebd5ec39d04777242a1ff63f7327616e592055a5f6037670decac254cc1d
+  sha256: 8e5bb808f18fe22f88fcfe9d6f2db3306f198b1bde8052c399a018e4580b444e
 
 build:
   number: 0
